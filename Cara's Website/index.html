@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+	<html lang="en">
+	  <head>
+	       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	       <title>Cara's Website Yo</title>	       
+	       <link rel="stylesheet" href="style.css"/>
+	       <link rel="stylesheet" type="text/css" media="only screen and (max-width: 480px), only screen and (max-device-width: 480px)" href="small-device.css" />
+	       <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	       <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+		   <script src="js/modernizr.custom.js"></script>
+
+
+		   	<!-- Icons -->
+			<link rel="stylesheet" type="text/css" href="css/social_line_styles.css"><!--SVG Animation Styles-->
+			<link rel="stylesheet" type="text/css" href="css/social_shadow_styles.css"><!--SVG Animation Styles-->
+			<link rel="stylesheet" type="text/css" href="css/social_filled_styles.css"><!--SVG Animation Styles-->
+			<link rel="stylesheet" type="text/css" href="css/flat_filled_styles.css"><!--SVG Animation Styles-->
+			<link rel="stylesheet" type="text/css" href="css/flat_line_styles.css"><!--SVG Animation Styles-->
+			<link rel="stylesheet" type="text/css" href="css/flat_shadow_styles.css"><!--SVG Animation Styles-->
+			<link rel="stylesheet" type="text/css" href="css/firefix.css"><!--Minor Firefox Fixes-->
+			
+
+
+<script>
+   
+<!----- JQUERY FOR SLIDING NAVIGATION --->   
+$(document).ready(function() {
+  $('a[href*=#]').each(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname
+    && this.hash.replace(/#/,'') ) {
+      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+       if ($target) {
+         var targetOffset = $target.offset().top;
+
+<!----- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE #DIV--->   
+         $(this).click(function() {
+            $("#nav li a").removeClass("active");
+            $(this).addClass('active');
+           $('html, body').animate({scrollTop: targetOffset}, 180);
+           return false;
+         });
+      }
+    }
+  });
+
+});
+
+
+</script>
+
+</head>
+
+	
+
+<body>
+	<header id="header">
+		<div>
+			<div id="logo"><a href=""> </a></div>
+	 
+			<nav id="nav">
+			    <ul>
+			    <li><a href="#slide3" title="Next Section"><img src="images/link1.svg" width="18" alt="portfolio work"/></a></li>
+			    <li><a href="#slide4" title="Next Section"><img src="images/link2.svg" width="18" alt="about me"/></a></li>
+			    <li><a href="#slide5" title="Next Section"><img src="images/link3.svg" width="18" alt="contact"/></a></li>
+			    </ul>
+			</nav>
+		</div>
+
+	</header>
+
+<!--SLIDES START-->
+
+		<div id="slide1">
+	        <div>
+	           
+	            <h1>HI, MY NAME IS CARA</h1>
+	           
+			<svg id="cube" height="25%" width="25%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+				 viewBox="0 0 216.7 382.7" enable-background="new 0 0 216.7 382.7" xml:space="preserve">
+			<polygon fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" points="5.3,68.7 108.8,2.8 212.3,68.7 212.3,200.4 
+				108.8,266.2 5.3,200.4 "/>
+			<line fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="110.3" y1="3" x2="110.3" y2="144"/>
+			<line fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="7" y1="200.4" x2="109.8" y2="143.7"/>
+			<line fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="109.8" y1="143.7" x2="213.2" y2="200.4"/>
+			<g>
+				<g>
+					<line fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="109.3" y1="275" x2="109.3" y2="370"/>
+					<g>
+						<path fill="#FFFFFF" d="M120.3,367.9c-5,2.7-8.2,6.9-11,11.4c-2.8-4.5-7-8.6-11-11.4v-2.7c4,2.8,8.2,6.3,11,10.5
+							c2.9-4.2,6-7.8,11-10.5V367.9z"/>
+						<path fill="#FFFFFF" d="M120.3,361.3c-5,2.7-8.2,6.9-11,11.4c-2.8-4.5-7-8.6-11-11.4v-2.7c4,2.8,8.2,6.3,11,10.5
+							c2.9-4.2,6-7.8,11-10.5V361.3z"/>
+					</g>
+				</g>
+			</g>
+			</svg>
+	        </div>
+	    </div>
+	 
+
+	 
+	    <div id="slide2">
+	     <div>
+	      <div id="border"><h2>I'M A UX/UI DESIGNER<br>
+	            	BASED OUT OF VANCOUVER, BC</h2></div>
+
+	      		
+				<svg style="position:static" xmlns="http://www.w3.org/2000/svg" viewBox="-50 0 915 395.4" enable-background="new 0 0 915 395.4"><g fill="#b7b7b7"><path d="m813 86.4l60.6 154 41.4 102.5v52.5l-102-1h-121.2l60.6-154z"/><path d="m106.1 50.1h89.9v346.2h-89.9z"/><path d="m681.5 184.4l51.4 105 51.3 105h-102.7-102.7l51.3-105z"/><path d="m225.2 0v86.1h14.4v11.9c6.9.8 14.7 6.1 14.7 6.1h18l-.6 16.9h-6.1c0 6-26 31.6-26 31.6h-34.6c0 0-26-25.6-26-31.6h-6.1l-.6-16.9h18c0 0 7.8-5.3 14.7-6.1v-11.9h14.4v-86.1h5.8"/><path d="m209.2 152.2h26.8v245.6h-26.8z"/></g><g fill="#fff"><path d="m175 97.4h14v15h-14z"/><path d="m175 121.4h14v14h-14z"/><path d="m175 145.4h14v15h-14z"/><path d="m175 168.4h14v15h-14z"/><path d="m175 191.4h14v14h-14z"/><path d="m175 214.4h14v14h-14z"/><path d="m153 97.4h14v15h-14z"/><path d="m153 121.4h14v14h-14z"/><path d="m153 145.4h14v15h-14z"/><path d="m153 168.4h14v15h-14z"/><path d="m153 191.4h14v14h-14z"/><path d="m153 214.4h14v14h-14z"/><path d="m175 77.4h14v15h-14z"/><path d="m133 77.4h14v15h-14z"/><path d="m153 77.4h14v15h-14z"/><path d="m110 77.4h15v15h-15z"/><path d="m133 97.4h14v15h-14z"/><path d="m110 97.4h15v15h-15z"/></g><path fill="#b7b7b7" d="m.3 396.8v-255.4h6.6v-27.3h10.1v-10h24.4v8h37.9v-8h13.3v6h6.7v36.3h6.7v250.4z"/><g fill="#fff"><path d="m65 145.4h82v251h-82z"/><path d="m232 396.4h-60v-157.7l30-13.3 30 13.3z"/><path d="m133 120.4h14v14h-14z"/><path d="m111 120.4h14v14h-14z"/><path d="m153 255.4h14v15h-14z"/><path d="m153 279.4h14v14h-14z"/><path d="m153 303.4h14v15h-14z"/><path d="m153 235.4h14v15h-14z"/><path d="m681.5 185.3l25.2 50.5-5.7 10.4-3.2 12-10 3.2-9.3 34.1-24.7-24.2-21 16.7-.9-2.1z"/><path d="m812.9 89l33.1 81.3-15.5 24.2 18.8 16.3-7.2 13.5c0 0-7.6 35.2-11.6 38.7-2.2 1.9-21.7-12-37.9-15.5-13.4-2.9-24.1 4.8-24.1 4.8s3-27.1 0-22.3-32.6 52.4-32.6 52.4l77-193.4"/></g></svg>
+	
+	      		
+		
+	    </div>
+	</div>
+
+	   <div id="slide3">
+	        <div id="gridcontainer">
+	               
+	               <h4>CHECK OUT MY WORK HERE </h4>
+
+
+					<ul class="grid cs-style-1">
+					    <li>
+					        <figure>
+					            <img src="images/work1.png" width="420" height="180" alt="test">
+					            <figcaption>
+					                <h5>YMCA OF GREATER VANCOUVER</h5>
+					                <span>Graphic Design</span>
+					                <a href="#"></a>
+					            </figcaption>
+					        </figure>
+					    </li>
+					    <li>
+					        <figure>
+					        	<img src="images/work6.png" width="420" height="180" alt="test">
+					            <figcaption>
+					                <h5>ALEYE</h5>
+					                <span>Graphic Design + Branding</span>
+					                <a href="#"></a>
+					            </figcaption>
+					        </figure>
+					    </li>
+					    <li>
+					        <figure>
+					            <img src="images/work3.png" width="420" height="180" alt="test">
+					            <figcaption>
+					                <h5>JEFFERSON BARBERSHOP</h5>
+					                <span>Branding + UX/UI</span>
+					                <a href="#"></a>
+					            </figcaption>
+					        </figure>
+					    </li>
+					    <li>
+					        <figure>
+					        	<img src="images/work4.png" width="420" height="180" alt="test">
+					            <figcaption>
+					                <h5>ELMNT</h5>
+					                <span>Mobile Application UX/UI</span>
+					                <a href="#"></a>
+					            </figcaption>
+					        </figure>
+					    </li>
+					    <li>
+					        <figure>
+					            <img src="images/work2.png" width="420" height="180" alt="test">
+					            <figcaption>
+					                <h5>PODIUM</h5>
+					                <span>Mobile Application UX/UI</span>
+					                <a href="#"></a>
+					            </figcaption>
+					        </figure>
+					    </li>
+					    <li>
+					        <figure>
+					        	<img src="images/work5.png" width="420" height="180" alt="test">
+					            <figcaption>
+					                <h5>ALEYE</h5>
+					                <span>UX/UI Design</span>
+					                <a href="#"></a>
+					            </figcaption>
+					        </figure>
+					    </li>
+					</ul>
+						 
+			         
+						 
+			</div>
+		</div>
+			          
+
+	<div id="slide4">
+	         
+	    <div id="moiwrapper">
+			 <img id="moi" src="images/last.gif" alt="me, cara davies">
+		</div>
+
+	            <div id="aboutwrapper"> 
+		           <img id="decoborder" src="images/border.svg" width="500" height="200" alt="border"/>
+		            <h3>WANT TO KNOW MORE?</h3>
+		            	<div id="aboutinfo">
+
+		            		<div id="nerdywrapper">
+		            		   <h6 id="nerdyfacts">NERD FACTS</h6>
+				            		<p>I use Adobe Illustrator CC, Photoshop CC + Muse CC to make my lo-fi wireframes and pixel perfect mockups and prototypes.</p>
+			            			<p>I utlitize the awesome powers of HTML5, CSS3, JQuery and SVG animation to make my designs come to life.</p>
+			            		</div>
+
+
+
+			            		<div id="funnywrapper">
+			            		<h6 id="funfacts">FUN FACTS</h6>
+			            			<p class="funtext">You can find me in my East Vancouver neighbourhood usually on a patio or in a park with a smoothie in hand! I enjoy cooking and playing tennis on my off days.</p>
+			            		</div>
+			            	
+			            </div>
+	          	</div>
+	</div>
+	 
+	    <div id="slide5">
+	        
+	            <div id="contact"><h3>GET IN TOUCH</h3></div>
+	  
+	            <div id="socialmediaicons">
+	            <span class="svg-icon social-shadow" id="shadow-behance"></span>
+	            <span class="svg-icon social-shadow" id="shadow-linkedin"></span>
+	            <span class="svg-icon social-shadow" id="shadow-twitter"></span>
+	        	</div>
+
+
+				<script src="js/svg_inject_scoial_shadow.js"></script><!--Inject SVG and Toggle CSS Styles-->
+				<script src="js/svg_inject_scoial_filled.js"></script><!--Inject SVG and Toggle CSS Styles-->
+				<script src="js/svg_inject_flat_icons_filled.js"></script><!--Inject SVG and Toggle CSS Styles-->
+				<script src="js/svg_inject_flat_icons_line.js"></script><!--Inject SVG and Toggle CSS Styles-->
+				<script src="js/svg_inject_flat_icons_shadow.js"></script><!--Inject SVG and Toggle CSS Styles-->
+								
+					     
+	 
+	    </div>
+
+	<!--SLIDES END-->
+	</body>
+	</html>

@@ -1,0 +1,415 @@
+body{
+	    margin: 0;
+	    padding: 0;
+	    width: 100%;
+	    overflow-x:hidden;
+	}
+	 
+	h1 {
+	    font-family:"Montserrat";
+	    font-weight:normal;
+	    font-size: 2.4em;
+	    text-align: center;
+	    color: #fff;
+	    margin: 0;
+	    padding: 0;
+	    position:relative;
+	    top:-140px;
+	}
+	 
+	h2 {
+	   font-family:"Montserrat";
+	   font-weight: normal;
+	   font-size: 2.5em;
+	   text-align: right;
+	   color: #fff;
+	   margin:0px 24px 0px 0px;
+	   padding: 0;
+	   position:relative;
+	   top:30px;
+	   
+	}
+
+
+	#border{
+		position:relative;
+		width:720px;
+		height:160px;
+		border: solid #FFF 5px;
+		left:510px;
+		bottom:80px;
+
+	}
+
+
+	h4 {
+		font-family: "Montserrat";
+	    font-weight: normal;
+		text-align:left;
+		font-size:2.4em;
+		position:relative;
+		right:-65px;
+		bottom:40px;
+	}
+
+	.center { margin: 0 auto; }
+	.content{ margin: 0 auto; width: 100%; }
+	.clear { clear: both; }
+
+	#header {
+	    width: 8%;
+	    background-color:#fff;
+	    height: 100%;
+	    position: fixed;
+	    min-width:60px;
+	    max-width:90px;
+	}
+	 
+	#nav { 
+		width:8%;
+		min-width:60px;
+		max-width:90px;
+	}
+
+
+
+
+
+	#logo a { 
+		color: #fff; 
+		text-decoration: none; 
+		float: left; 
+		font-size: 30px; 
+		margin-top: 20px; 
+		color: #fff;
+	}
+	
+	#nav ul{
+	    list-style: none;
+	    display: block;
+	    margin: 0 auto;
+
+	}
+	 
+	#nav li{
+		position:relative;
+	    top: 120px;
+	    left:-5px;
+	    padding-bottom:35px;
+	}
+	 
+	#nav li a { color: #BFBDBD;}
+	#nav li a.active { color: #BFBDBD; opacity:1; border-bottom: 2px solid #fff; }
+	#nav li a:hover { color: #BFBDBD; opacity:1;  }
+
+
+
+	1	#slide1, #slide2{ width: 100%; }
+	#slide1{
+	    background:url('images/background.svg') 100% 0 no-repeat fixed;
+	    color: #fff;
+	    width:100%;
+	    height: 480px;
+	    margin: 0;
+	    padding: 200px 0 0;
+	    background-size: cover;
+
+	}
+
+	 #cube{
+	 	display:inline-block;
+		position:relative;
+		margin:0 auto;
+		right:50%;
+		left:37%;
+		bottom:100px;
+	} 
+
+
+	 
+	#slide2{
+	    background-color: #6eb6b7;
+	    width:100%;
+	    height: 600px;
+	    margin: 0;
+	    padding: 150px 0 80px;
+	    overflow:hidden;
+	    
+	}
+	#van{
+		display:block;
+		position:relative;
+		top:100px;
+	}
+
+
+	#slide3{
+	    background: url('images/background.svg') 100% 0 no-repeat fixed;
+	    color: #fff;
+	    width:100%;
+	    height: 700px;
+	    padding: 100px 0 0 0;
+	    background-size: cover;
+	}
+
+	#gridcontainer{
+		width:1000px;
+		height:680px;
+		position:relative;
+		top:-50px;
+		left:50px;
+		margin:auto;
+	} 
+
+	/* PORTFOLIO STARTS HERE */
+
+
+		.grid {
+	    padding: 0px 0px 0px 0px;
+	    max-width: 940px;
+	    margin: auto;
+	    left:28px;
+	    list-style: none;
+	    text-align: center;
+	    position:absolute;
+	    top:30px;
+		}
+	 
+		.grid li {
+	    display: inline-block;
+	    width: 420px;
+	    height:180px;
+	    margin: auto;
+	    padding: 10px 10px 10px;
+	    text-align: center;
+	    position: relative;
+	    left:42px;
+	    float:left;
+		}
+
+
+		.grid figure {
+		 margin: 0;
+		 position: relative;
+		}
+
+
+		.grid figcaption {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width:50%;
+	    height:98%;
+	    padding: 0px;
+	    background: #6eb6b7;
+	    color: #fff;
+	    opacity: 0.7;
+		}
+
+		figcaption h5 {
+		font-family: "Montserrat";
+	    font-weight: normal;
+	    font-size:1em;
+		position:relative;
+		top:20px;
+		}
+
+		figcaption span {
+		display: block;
+		font-size:.8em;
+		font-family: "Montserrat";
+	    font-weight: normal;
+	    position:relative;
+	    top:20px;
+		}
+
+		.grid figcaption img {
+		display:block;
+		margin:auto;
+		position:relative;
+		bottom:23px;
+
+		}
+
+		.grid figcaption:hover{
+		width:100%;
+		height:100%;
+		position:absolute;
+		transition: transform 0.3s, opacity 0.3s;
+		opacity: .8;
+    	transform: translate(10px, 10px);
+		}
+
+		.grid figcaption:hover h5{
+			font-size:1.5em;
+		}
+
+
+	/* PORTFOLIO ENDS HERE */
+
+
+	/* ABOUT STARTS HERE */
+	#slide4{
+	    background-color: #6eb6b7;
+	    color: #333333;
+	    width:100%;
+	    height: 500px;
+	    padding: 0px 0px 200px;
+	}
+
+	#aboutwrapper{
+		position:relative;
+		height:103%;
+		width:45%;
+		left:80px;
+		margin:0;
+	}
+
+	#decoborder{
+		position:relative;
+		left:78px;
+		top:35px;
+	}
+
+	#slide4 h3 {
+	   font-family: "Montserrat";
+	   font-weight: normal;
+	   font-size: 2.1em;
+	   text-align: left;
+	   padding: 0;
+	   position: absolute;
+	   left:110px;
+	   top:55px;
+	   color: #fff;
+
+	}
+
+	#aboutinfo{
+		width:480px;
+		height:400px;
+		position:relative;
+		left:55px;
+		top:8px;
+	}
+	
+	#nerdywrapper{
+		position:relative;
+		width:480px;
+		height:180px;
+		top:30px;
+		margin:30px 0 30px 0;
+		left:30px;
+
+	}
+
+	#funnywrapper{
+		position:relative;
+		width:480px;
+		height:180px;
+		top:20px;
+		left:30px;
+	}
+
+
+	#nerdyfacts{
+		color:white;
+		position:relative;
+		font-size:1.4em;
+		font-family:"Montserrat";
+		text-align: left;
+		top:-50px;
+
+	}
+
+	#aboutinfo p {
+		position:relative;
+		color:white;
+		font-family:"Montserrat";
+		text-align: left;
+		top:-80px;
+
+	}
+
+	#funfacts{
+		color:white;
+		position:relative;
+		font-size:1.4em;
+		font-family:"Montserrat";
+		text-align: left;
+		top:-50px;
+	}
+
+
+	#moi{
+	    position:relative;
+    	z-index:0;
+    	right:0;
+    	top:10%;
+    	bottom:50%;
+    	width:650px;
+    	height:500px;
+    	border:5px solid white;
+
+	}
+
+	#moiwrapper{
+		position:absolute;
+    	width:650px;
+    	height:500px;
+		right:0;
+	}
+
+	/* CONTACT STARTS HERE */
+	 
+	#slide5{
+	    background: url('images/background.svg')100% 0 no-repeat fixed;
+	    width:100%;
+	    height: 200px;
+	    margin: 0;
+	    padding: 250px 0;
+	    color: #fff;
+	    background-size: cover;
+	  
+	}
+
+	#slide5 h3{
+	   font-family: "Montserrat";
+	   font-weight: normal;
+	   font-size: 2.4em;
+	   text-align: center;
+	   padding: 0;
+	   position: relative;
+	}
+
+	
+	#border{
+		position:relative;
+		width:720px;
+		height:160px;
+		border: solid #FFF 5px;
+		left:510px;
+		bottom:80px;
+
+	}
+
+	#contact{
+		position:relative;
+		margin:auto;
+		width:420px;
+		height:120px;
+		border:solid #FFF 7px;
+
+	}
+
+
+	#socialmediaicons{
+		width:420px;
+		height:140px;
+		margin:auto;
+		position:relative;
+		left:30px;
+		top:80px;
+	}
+
+
+
